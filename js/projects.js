@@ -78,72 +78,18 @@ const projects = [
   },
   {
     id: 4,
-    title: "PCOS Tracker",
-    description: "A women’s health app designed for users managing PCOS. Includes symptom tracking, doctor booking, and cycle prediction.",
-    shortDescription: "Women’s health app for PCOS tracking and appointments.",
-    image: "https://images.pexels.com/photos/4226122/pexels-photo-4226122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    title: "BIND - Personal Space",
+    description: "BIND is an AI-powered personal diary app designed for seamless journaling. Whether you prefer typing or speaking, BIND makes capturing your thoughts effortless while ensuring privacy and accessibility.",
+    shortDescription: "Bind Personal Journal App.",
+    image: "https://github.com/ElamaranG7/Portfolio/blob/main/images/BindLogo.png",
     color: 0x5ac8fa,
-    tags: ["Swift", "UIKit", "CoreData", "API", "DatePicker"],
+    tags: ["Swift UI", "CoreData", "API", "DatePicker"],
     type: "ios-app",
-    appStoreLink: "#", // Add App Store link or TestFlight if available
-    caseStudyLink: "https://github.com/ElamaranG7/PCOS-Tracker", // Optional
+    appStoreLink: "https://apps.apple.com/in/app/bind-personal-space/id6742995499", 
+    caseStudyLink: "", // Optional
     features: [
-      "Cycle tracking with calendar view",
-      "Book appointments with gynecologists",
-      "Custom symptom logs",
-      "Secure medical data storage",
-      "Interactive UI for daily logs"
-    ],
-    techStack: [
-      { name: "Swift", icon: "" },
-      { name: "UIKit", icon: "" },
-      { name: "CoreData", icon: "" },
-      { name: "DatePicker", icon: "" },
-      { name: "API Integration", icon: "" }
-    ]
-  },
-  {
-    id: 5,
-    title: "PCOS Tracker",
-    description: "A women’s health app designed for users managing PCOS. Includes symptom tracking, doctor booking, and cycle prediction.",
-    shortDescription: "Women’s health app for PCOS tracking and appointments.",
-    image: "https://images.pexels.com/photos/4226122/pexels-photo-4226122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    color: 0x5ac8fa,
-    tags: ["Swift", "UIKit", "CoreData", "API", "DatePicker"],
-    type: "ios-app",
-    appStoreLink: "#", // Add App Store link or TestFlight if available
-    caseStudyLink: "https://github.com/ElamaranG7/PCOS-Tracker", // Optional
-    features: [
-      "Cycle tracking with calendar view",
-      "Book appointments with gynecologists",
-      "Custom symptom logs",
-      "Secure medical data storage",
-      "Interactive UI for daily logs"
-    ],
-    techStack: [
-      { name: "Swift", icon: "" },
-      { name: "UIKit", icon: "" },
-      { name: "CoreData", icon: "" },
-      { name: "DatePicker", icon: "" },
-      { name: "API Integration", icon: "" }
-    ]
-  },
-  {
-    id: 6,
-    title: "PCOS Tracker",
-    description: "A women’s health app designed for users managing PCOS. Includes symptom tracking, doctor booking, and cycle prediction.",
-    shortDescription: "Women’s health app for PCOS tracking and appointments.",
-    image: "https://images.pexels.com/photos/4226122/pexels-photo-4226122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    color: 0x5ac8fa,
-    tags: ["Swift", "UIKit", "CoreData", "API", "DatePicker"],
-    type: "ios-app",
-    appStoreLink: "#", // Add App Store link or TestFlight if available
-    caseStudyLink: "https://github.com/ElamaranG7/PCOS-Tracker", // Optional
-    features: [
-      "Cycle tracking with calendar view",
-      "Book appointments with gynecologists",
-      "Custom symptom logs",
-      "Secure medical data storage",
+      "Daily Journal Activities Update",
+      "Personal Diary",
       "Interactive UI for daily logs"
     ],
     techStack: [
